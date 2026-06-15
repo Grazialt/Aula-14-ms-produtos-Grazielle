@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project xmlns="http://maven.apache.org/POM/4.0.0"
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<<<<<<< HEAD
          xsi:schemaLocation="https://maven.apache.org/POM/4.0.0
          https://maven.apache.org/xsd/maven-4.0.0.xsd">
+=======
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+>>>>>>> 75ba6a85ae3ded2b9d0b2c7b31caba5abbadf6f5
 
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
+<<<<<<< HEAD
         <version>3.5.0</version>
+=======
+        <version>3.5.3</version>
+>>>>>>> 75ba6a85ae3ded2b9d0b2c7b31caba5abbadf6f5
         <relativePath/>
     </parent>
 
@@ -17,6 +25,10 @@
     <artifactId>ms-produtos</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>ms-produtos</name>
+<<<<<<< HEAD
+=======
+    <description>Microserviço de Produtos</description>
+>>>>>>> 75ba6a85ae3ded2b9d0b2c7b31caba5abbadf6f5
 
     <properties>
         <java.version>21</java.version>
@@ -24,16 +36,25 @@
 
     <dependencies>
 
+<<<<<<< HEAD
+=======
+        <!-- Spring Web -->
+>>>>>>> 75ba6a85ae3ded2b9d0b2c7b31caba5abbadf6f5
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
 
+<<<<<<< HEAD
+=======
+        <!-- Spring Data JPA -->
+>>>>>>> 75ba6a85ae3ded2b9d0b2c7b31caba5abbadf6f5
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-jpa</artifactId>
         </dependency>
 
+<<<<<<< HEAD
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-validation</artifactId>
@@ -45,6 +66,16 @@
             <scope>runtime</scope>
         </dependency>
 
+=======
+        <!-- Banco H2 -->
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+            <scope>runtime</scope>
+        </dependency>
+
+        <!-- Testes -->
+>>>>>>> 75ba6a85ae3ded2b9d0b2c7b31caba5abbadf6f5
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
@@ -53,11 +84,16 @@
 
     </dependencies>
 
+<<<<<<< HEAD
        <build>
+=======
+    <build>
+>>>>>>> 75ba6a85ae3ded2b9d0b2c7b31caba5abbadf6f5
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+<<<<<<< HEAD
                 <version>3.5.0</version>
                 <executions>
                     <execution>
@@ -66,6 +102,8 @@
                         </goals>
                     </execution>
                 </executions>
+=======
+>>>>>>> 75ba6a85ae3ded2b9d0b2c7b31caba5abbadf6f5
             </plugin>
         </plugins>
     </build>
